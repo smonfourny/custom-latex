@@ -3,7 +3,7 @@
 % ams packages i feel useful, tikz, my fav custom colors
 % maybe custom commands to make venn diagrams more easily?
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{mcgillhomework} [2016/09/25 v0.1 Custom class for homework and assignments]
+\ProvidesClass{mcgillhomework} [2016/09/25 v0.1 Custom class for homework]
 
 \LoadClass{article}
 
@@ -48,7 +48,7 @@
     }
 }
 
-%command to declare title in one page
+%command to declare title in one line
 \newcommand{\titledeclaration}[5]{
     \title{\vspace*{\fill}#1}
     \author{#2\\McGill ID: #3}
